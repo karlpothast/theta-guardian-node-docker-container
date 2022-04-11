@@ -15,11 +15,11 @@ Docker Hub link : https://hub.docker.com/repository/docker/karlpothast/theta-gua
 
 Run `docker exec` from your server to open a command line within the running container
 
-$ `docker exec -it <ThetaContainerName> bash`
+`docker exec -it <ThetaContainerName> bash`
 
 Once you are within the conainer simply type **theta** to bring up the menu :
 
-$ `theta`
+`theta`
 
 ![alt text][imgMenu]
 
