@@ -13,11 +13,13 @@ Docker Hub link : https://hub.docker.com/repository/docker/karlpothast/theta-gua
 - ### Built-in snapshot refresh command ###
   - *most common fix for the "Theta is still syncing..." issue*
 
-Run docker exec to open a command line within the running container.
-`docker exec -it <ThetaContainerName> bash`  
-Once you are within the conainer simply type **theta** to bring up the menu
+Run `docker exec` from your server to open a command line within the running container
 
-Reference-style: 
+`docker exec -it <ThetaContainerName> bash`
+
+Once you are within the conainer simply type **theta** to bring up the menu
+`theta`
+
 ![alt text][imgMenu]
 
 [imgMenu]: https://github.com/karlpothast/theta-guardian-node-docker-container/blob/master/thetaDockerMenu.png?raw=true "Linux Menu"
