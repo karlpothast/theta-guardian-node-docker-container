@@ -13,7 +13,7 @@ Docker Hub link : https://hub.docker.com/repository/docker/karlpothast/theta-gua
 - ### Built-in snapshot refresh command ###
   - *most common fix for the "Theta is still syncing..." issue*
 
-Run `docker exec` from your server to open a command line within the running container
+Run **docker exec** from your server to open a command line within the running container
 
 `docker exec -it <ThetaContainerName> bash`
 
